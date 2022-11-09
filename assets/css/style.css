@@ -213,11 +213,16 @@ template {
   color: aquamarine;
 }
 
-.carousel {
+.main {
   width: 100vw;
   height: 85vh;
 
   background-color: beige;
+}
+
+.carousel {
+  max-width: 80vh;
+  margin: 0 auto;
 }
 
 .slides {
